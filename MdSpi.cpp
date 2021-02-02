@@ -2,11 +2,11 @@
 #include <iostream>
 #include <cstring>
 
-char* BROKER_ID="4200"; // xzqh // SimNow: 9999
+char* BROKER_ID="9999"; // xzqh // SimNow: 9999
 char* USER_ID="";
 char* PASSWORD="";
-char* INSTRUMENTS[] = {"IF1710", "IF1712", "ag1709", "au1709", "ru1709"};
-int INSTRUMENT_COUNT = 5;
+char* INSTRUMENTS[] = {"ag2105", "au2105", "ru2105"};
+int INSTRUMENT_COUNT = 3;
 
 void MdSpi::OnFrontConnected()
 {
